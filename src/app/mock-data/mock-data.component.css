@@ -1,0 +1,66 @@
+﻿/*William Thompson 1/11*/
+
+tbody {
+
+    font-size: 11px; 
+    text-align: flex-start 
+}
+body {
+    /*William Thompson 1/11*/
+    /* background-color: rgb(124,188,232); */
+}
+
+li{
+   /*William Thompson 1/11*/
+    text-align: flex-start;
+}
+td {
+    /*William Thompson 1/11*/
+    text-align: flex-start 
+}
+th {
+    background: lightblue;
+    /*William Thompson 1/11*/
+    text-align: flex-start 
+}
+table{
+    width: 100%;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+}
+.rounded-container {
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.background-white {
+    background-color: #FFFFFF;
+}
+input#searchssid:focus {
+    background-color: yellow;
+}
+.buttonwrapper{
+    display: inline-block;
+    width: 100%
+}
+input{
+    background-color: transparent;
+    border: 2px solid black;
+}
+label {
+    margin-left: 25px;
+}
+input#searchssid{
+    width: 200px;
+}
+caption{
+    margin-left: 20px;
+}
+.submitbutton {
+    margin-left: -45px;
+    background-color: transparent;    
+}
